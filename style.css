@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#comparison-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.episode-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+    background-color: #fff;
+}
+
+#button-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#ranking-container {
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+#ranking-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}

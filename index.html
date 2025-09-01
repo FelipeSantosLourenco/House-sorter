@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking de Episódios de Dr. House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ranking de Episódios de Dr. House</h1>
+    <div id="comparison-container">
+        <div class="episode-container" id="episode1-container">
+            <h2 id="episode1-title"></h2>
+            <p id="episode1-info"></p>
+        </div>
+        <div class="episode-container" id="episode2-container">
+            <h2 id="episode2-title"></h2>
+            <p id="episode2-info"></p>
+        </div>
+    </div>
+    <div id="button-container">
+        <button id="choose-ep1">Gosto do primeiro</button>
+        <button id="choose-ep2">Gosto do segundo</button>
+        <button id="choose-both">Gosto dos dois</button>
+        <button id="no-opinion">Sem opinião</button>
+    </div>
+    <div id="ranking-container" style="display: none;">
+        <h2>Ranking Final</h2>
+        <ol id="ranking-list"></ol>
+        <button id="restart-button">Fazer de Novo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
